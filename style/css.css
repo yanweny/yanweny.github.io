@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+/*以下是公用样式表*/
+*{margin:0; padding:0;}
+body{font:12px "宋体"; color:#808080; background:#fff;}
+ul{list-style-type:none;}
+a{color:#808080; text-decoration:none;}
+a:hover{color:#a60a7c;}
+
+/*以下是公用头部样式表*/
+#top{width:216px; margin:0 auto; line-height:30px; height:30px; padding-left:780px;}
+#top li{ float:left; background:url(../images/list_03-11_03.png) no-repeat 0 8px; padding-left:14px;}
+#top .sc{background:url(../images/list_03-11_03.png) no-repeat 0 -32px;}
+#top .tel{background:url(../images/list_03-11_03.png) no-repeat 0 -71px;}
+
+/*以下是公用导航条样式表*/
+#box_nav{background:#007d6b;}
+#nav{width:996px; margin:0 auto; height:55px;}
+#nav img{float:left; background:#fff; padding:6px 20px 7px; margin-right:50px;}
+#nav li{ float:left;line-height:55px; border-right:solid 1px #fff; padding:0 20px;}
+#nav a{color:#fff; font-size:14px;}
+#nav a:hover{color:#999;}
+
+/*以下是公用banner样式表*/
+#box_banner{background:url(../images/10.png);}
+.pic{width:996px; margin:0 auto;}
+
+/*以下是首页主体部分样式表*/
+#box{width:996px; margin:0 auto;}
+#cp{width:480px; float:left;}
+#cp h1,#news h1{border-bottom:solid 2px #066; padding:10px 0;}
+#cp .more{padding-left:300px;}
+#cp li{float:left; padding:10px 5px;}
+
+#news{width:480px; float:right;}
+#news .more{padding-left:335px;}
+#news h2{float:left; padding:10px 10px 10px 0;}
+#news h2 img{border:solid 1px #999; padding:3px;}
+#news p{line-height:2.0; padding-top:10px;}
+#news li{line-height:30px; border-bottom:dashed 1px #999; text-align:right;}
+#news li a{float:left;}
+
+/*以下是公用版权部分样式表*/
+#foot_nav{line-height:40px; text-align:center; background:#066; color:#fff; margin-top:20px;}
+
+#copyright{line-height:40px; text-align:center;}
+
+/*以下是新闻列表页样式表*/
+#list_left{width:240px; float:left; border:solid 1px #999; margin-top:15px;}
+#list_left h1{line-height:35px; background:#005e50 url(../images/list_03.png) no-repeat 10px center; font-size:14px; color:#fff; padding-left:24px; margin:2px;}
+#list_left .list,.ss{padding:10px 20px;}
+#list_left .list li{line-height:35px; border-bottom:dashed 1px #999; background:url(../images/list_07.png) no-repeat 20px center; padding-left:40px;}
+#list_left .ss li{padding:10px 0;}
+#list_left .fl{width:150px;}
+
+#list_right,#list_right_cp{width:710px; float:right; margin-top:15px;}
+#list_right h1,#list_right_cp h1{line-height:35px; color:#005e50; font-size:14px; background:url(../images/list_03-11_03.png) no-repeat 0 10px; padding-left:16px; border-bottom:solid 1px #999;}
+#list_right h1 span,#list_right_cp h1 span{font-size:12px; color:#666; font-weight:normal; padding-left:390px;}
+#list_right .news li{line-height:35px; border-bottom:dashed 1px #999; text-align:right; padding-right:40px;}
+#list_right .news li a{float:left;}
+#page{ padding:15px 0;}
+#page p{float:left;}
+#page ul{padding-left:400px;}
+#page li{float:left; background:#ccc; padding:4px 6px; margin:0 5px; color:#666;}
+#page .num{border:solid 1px #999; background:#f3f3f3; padding:3px 4px;}
+#page .pages{ padding:0;}
+
+#list_right_cp .cp{padding-left:9px;}
+#list_right_cp .cp li{float:left; width:200px; text-align:center; line-height:2.0; background:#D5D5D5; margin:15px;}
+#list_right_cp img{width:200px; height:160px;}
